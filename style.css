@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    background-color: rgba(13, 85, 180, 0.495);
+    background-image:url(./img/Horvat\ ut-146.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.85; */
+}
+
+header h1{
+    color: #559E54;
+    font-size: 70px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    margin-top: 0%;
+    margin-left: 30px;
+}
+
+.git {
+    color: black;
+}
+
+header {
+    display: block;
+    width: 80%;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 7px 7px 15px 8px rgba(0, 0, 0, 0.684);    
+}
+
+#stamp{
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+#container {
+    width: 85%;
+    display: block;
+}
+
+.Member {
+    display: flex;
+    background-color: #d4f7d4e0;
+    margin: 50px 10px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* opacity: 0.85; */
+}
+
+.profile {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 0 30px 30px;
+    background-color: #559e5457;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.profile-picture {
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size:20px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+h1 h3 {
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-size: 30px;
+}
+.detail {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding: 20px 30px 20px 30px;
+
+}
+
+.favorites {
+    background-color: #559E54;
+    border-top-right-radius: 30px;
+    
+}
+
+.introduction {
+    background-color: #88C487;
+    border-bottom-right-radius: 30px;
+    visibility: hidden;
+    height: 50%;
+    opacity: 0;
+    transition: visibility 0.6s linear, opacity 0.6s linear;
+
+}
+button:hover + .introduction {
+    visibility: visible;
+    opacity: 1;
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+}
+
+li {
+    color:#D4F7D4;
+    list-style-type: none;
+    margin: 5px;
+    font-size: 18px;
+}
+
+p {
+    margin: 25px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#fox {
+
+    text-align: center;
+}
+#team2{
+    width: 300px;
+}
+#team2Img{
+    display: flex;
+    justify-content: center;
+}
